@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>HDMI</title> <!-- 웹페이지의 제목 -->
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"> <!-- 반응형 디자인을 위한 뷰포트 설정 -->
+    <meta content="" name="keywords"> <!-- SEO를 위한 키워드 -->
+    <meta content="" name="description"> <!-- 페이지 설명 -->
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon"> <!-- 웹사이트 탭에 표시되는 파비콘 -->
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Google 폰트 최적화를 위한 사전 연결 -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Google 폰트 크로스오리진 -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet"> <!-- 폰트 스타일 -->
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet"> <!-- FontAwesome 아이콘 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet"> <!-- Bootstrap 아이콘 -->
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet"> <!-- 애니메이션 효과를 위한 CSS -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet"> <!-- 슬라이더 기능을 위한 CSS -->
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" /> <!-- 날짜 및 시간 선택기 위한 CSS -->
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet"> <!-- 맞춤 부트스트랩 스타일 -->
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet"> <!-- 웹사이트 전반에 적용되는 커스텀 스타일 -->
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <!-- 페이지 로딩 스피너 -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar Start -->
+    <!-- 내비게이션 바, 사이트 내 주요 페이지 링크 -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 wow fadeIn" data-wow-delay="0.1s">
+        <a href="mainpage.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h1 class="m-0 text-primary"><i class="far fa-hospital me-3"></i>HDMI</h1>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="mainpage.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="service.html" class="nav-item nav-link">Service</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu rounded-0 rounded-bottom m-0">
+                        <a href="feature.html" class="dropdown-item">Feature</a>
+                        <a href="team.html" class="dropdown-item">Our Doctor</a>
+                        <a href="appointment.html" class="dropdown-item">Login</a>
+                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                        <a href="404.html" class="dropdown-item">404 Page</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <a href="" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Login<i class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+
+<!-- Header Start -->
+<!-- 이 섹션은 웹페이지의 헤더 부분입니다. 주로 방문자의 첫인상을 결정짓고 중요한 콘텐츠를 강조하는데 사용됩니다. -->
+<div class="container-fluid header bg-primary p-0 mb-5">
+    <!-- 이 컨테이너는 헤더 전체를 감싸며, bg-primary 클래스로 배경색을 파란색으로 설정합니다. -->
+    <div class="row g-0 align-items-center flex-column-reverse flex-lg-row">
+        <!-- 반응형 디자인을 위해 flex-column-reverse와 flex-lg-row 클래스를 사용하여 모바일과 데스크탑 레이아웃을 다르게 설정합니다. -->
+        <div class="col-lg-6 p-5 wow fadeIn" data-wow-delay="0.1s">
+            <!-- fadeIn 애니메이션과 함께 첫 번째 칼럼을 설정합니다. 이 칼럼은 큰 화면에서는 전체의 반을 차지합니다. -->
+            <h1 class="display-4 text-white mb-5">
+                HDMI는
+                <br> 당신과 건강 관리의 
+                <br> 첫걸음을 함께합니다</h1>
+            <!-- 대형 헤더 텍스트를 설정합니다. -->
+            <div class="row g-4">
+                <!-- 통계 정보를 위한 내부 로우를 설정합니다. -->
+                <div class="col-sm-4">
+                    <!-- 각 통계 정보를 위한 세 개의 칼럼으로 나눕니다. -->
+                    <div class="border-start border-light ps-4">
+                        <!-- 테두리를 추가하여 디자인 요소를 강조합니다. -->
+                        <h2 class="text-white mb-1" data-toggle="counter-up">123</h2>
+                        <!-- 숫자 카운터 애니메이션을 위한 h2 태그입니다. -->
+                        <p class="text-light mb-0">Expert Doctors</p>
+                        <!-- 설명 텍스트입니다. -->
+                    </div>
+                </div>
+                <!-- 나머지 두 통계 정보도 같은 방식으로 설정합니다. -->
+                <div class="col-sm-4">
+                    <div class="border-start border-light ps-4">
+                        <h2 class="text-white mb-1" data-toggle="counter-up">1234</h2>
+                        <p class="text-light mb-0">Medical Staff</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="border-start border-light ps-4">
+                        <h2 class="text-white mb-1" data-toggle="counter-up">12345</h2>
+                        <p class="text-light mb-0">Total Patients</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+            <!-- 이미지를 위한 두 번째 칼럼입니다. -->
+            <div class="position-relative">
+                <img class="img-fluid" src="img/main1.jpg" alt="">
+                <!-- 이미지 위에 표시될 텍스트를 위한 컨테이너입니다. -->
+                <div class="owl-carousel-text position-absolute top-50 start-50 translate-middle text-center">
+                    <h1 class="display-1 text-white mb-0">HDMI</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Header End -->
+
+ <!-- About Start -->
+<!-- 'About' 섹션은 회사나 서비스 소개에 사용됩니다. -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-5">
+            <!-- 이미지 섹션 시작 -->
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                <div class="d-flex flex-column">
+                    <!-- 큰 이미지 -->
+                    <img class="img-fluid rounded w-75 align-self-end" src="img/main3.jpg" alt="">
+                    <!-- 작은 이미지, 큰 이미지 위에 부분적으로 겹쳐짐 -->
+                    <img class="img-fluid rounded w-50 bg-white pt-3 pe-3" src="img/main2.jpg" alt="" style="margin-top: -10%;">
+                </div>
+            </div>
+            <!-- 텍스트 섹션 시작 -->
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                <!-- 소제목 -->
+                <p class="d-inline-block border rounded-pill py-1 px-4">About Us</p>
+                <!-- 제목 -->
+                <h1 class="mb-4">건강관리의 미래, <br> HDMI와 함께</h1>
+                <!-- 본문 텍스트 -->
+                <p>HMDI은 최고의 의료 서비스를 제공하기 위해 
+                    <br>율제병원과 손을 잡고, 
+                    <br>건강 관리의 미래를 선도합니다.</p>
+                <!-- 체크리스트 아이템 -->
+                <p><i class="far fa-check-circle text-primary me-3"></i>건강 검진 데이터 조회</p>
+                <p><i class="far fa-check-circle text-primary me-3"></i>AI 기반 약 찾기 서비스</p>
+                <!-- 'Read More' 버튼 -->
+                <a class="btn btn-primary rounded-pill py-3 px-5 mt-3" href="">Read More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About End -->
+
+<!-- Service Start -->
+<!-- 'Service' 섹션은 제공하는 서비스들을 소개하며, 방문자에게 회사가 제공할 수 있는 다양한 의료 서비스의 개요를 제공합니다. -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <!-- 서비스 섹션의 헤더 -->
+        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+            <!-- 서비스 소개를 나타내는 소제목 -->
+            <p class="d-inline-block border rounded-pill py-1 px-4">Services</p>
+            <!-- 서비스 섹션의 메인 제목 -->
+            <h1>당신의 건강, <br> 우리 기술로 더 가까이</h1>
+        </div>
+        <!-- 서비스 카드들을 포함하는 로우 -->
+        <div class="row g-4">
+            <!-- 서비스 카드 1 -->
+            <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="service-item bg-light rounded h-100 p-5">
+                    <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                        <!--서비스 카드의 아이콘-->
+                        <i class="fas fa-file-medical" style="color: #005eff; font-size: 2em;"></i> 
+                    </div>
+                    <h4 class="mb-3">건강검진 데이터 조회</h4>
+                    <p>건강검진 결과와 이력을 손쉽게 조회할 수 있는 서비스입니다.</p>
+                    <a class="btn" href=""><i class="fas fa-plus text-primary me-3"></i>더보기</a>
+                </div>
+            </div>
+            <!-- 서비스 카드 2 -->
+            <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="service-item bg-light rounded h-100 p-5">
+                    <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                        <!--서비스 카드의 아이콘-->
+                        <i class="fas fa-pills" style="color: #005eff; font-size: 2em;"></i>
+                    </div>
+                    <h4 class="mb-3">AI 약찾기 서비스</h4>
+                    <p>인공지능을 활용해 증상에 맞는 약을 추천받을 수 있습니다.</p>
+                    <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>더보기</a>
+                </div>
+            </div>
+            <!-- 서비스 카드 3 -->
+            <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="service-item bg-light rounded h-100 p-5">
+                    <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                        <!--서비스 카드의 아이콘-->
+                        <i class="fas fa-laptop-medical" style="color: #005eff; font-size: 2em;"></i>
+                    </div>
+                    <h4 class="mb-3">비대면 진료 예약</h4>
+                    <p>온라인을 통해 쉽게 의료진과의 비대면 진료를 예약할 수 있습니다.</p>
+                    <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>더보기</a>
+                </div>
+            </div>
+            <!-- 서비스 카드 4 -->
+            <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                <div class="service-item bg-light rounded h-100 p-5">
+                    <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                        <!--서비스 카드의 아이콘-->
+                        <i class="fas fa-file-waveform" style="color: #005eff; font-size: 2em;"></i>
+                    </div>
+                    <h4 class="mb-3">진료기록 조회</h4>
+                    <p>과거 및 현재의 진료 기록을 안전하게 확인하고 관리할 수 있습니다.</p>
+                    <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>더보기</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Service End -->
+
+
+
+<!-- JavaScript Libraries -->
+<!-- jQuery, 페이지의 동적 요소를 조작하기 위한 라이브러리 -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<!-- Bootstrap JavaScript, 모달 창, 탭, 툴팁 등과 같은 부트스트랩 컴포넌트들을 위한 자바스크립트 번들 -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- WOW.js, 스크롤 시 애니메이션 효과를 적용하기 위한 라이브러리 -->
+<script src="lib/wow/wow.min.js"></script>
+<!-- Easing, jQuery 애니메이션의 이징 효과를 제공하는 라이브러리 -->
+<script src="lib/easing/easing.min.js"></script>
+<!-- Waypoints, 특정 지점을 스크롤할 때 함수를 실행하는 데 사용 -->
+<script src="lib/waypoints/waypoints.min.js"></script>
+<!-- CounterUp, 숫자를 세는 애니메이션 효과를 제공하는 jQuery 플러그인 -->
+<script src="lib/counterup/counterup.min.js"></script>
+<!-- Owl Carousel, 이미지나 콘텐츠 슬라이더를 만드는데 사용되는 jQuery 플러그인 -->
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
