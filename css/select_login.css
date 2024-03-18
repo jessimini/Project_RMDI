@@ -1,0 +1,52 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f0f0f0; /* 배경색 조정 */
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly; /* 카드 사이에 공간을 균등하게 배분 */
+    align-items: center; /* 수직 중앙 정렬 */
+    height: 100vh; /* 전체 화면 높이 */
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column; /* 카드와 버튼을 세로로 배열 */
+    align-items: center; /* 수직 중앙 정렬 */
+    gap: 20px; /* 카드와 버튼 사이 간격 */
+}
+
+.card {
+    background-color: #007bff;
+    color: white;
+    width: 300px; /* 가로 크기 */
+    height: 300px; /* 세로 크기 */
+    display: flex;
+    justify-content: center; /* 텍스트 수평 중앙 정렬 */
+    align-items: center; /* 텍스트 수직 중앙 정렬 */
+    border-radius: 5px; /* 모서리 둥글게 */
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.card-content {
+    font-size: 24px; /* 텍스트 크기 */
+}
+
+button {
+    width: 300px; /* 버튼 가로 크기 */
+    padding: 10px 0; /* 버튼 상하 패딩 */
+    font-size: 18px; /* 버튼 텍스트 크기 */
+    color: #007bff;
+    background: white;
+    border: 1px solid #007bff;
+    border-radius: 5px; /* 모서리 둥글게 */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e7f5ff; /* 호버 시 버튼 배경색 변경 */
+}
